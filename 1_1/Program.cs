@@ -6,7 +6,7 @@
 
 
 Console.WriteLine("введите четырехзначное число");
-int number = int.Parse(Console.ReadLine());
+int number = Convert.ToInt32(Console.ReadLine());
 int pal = 0, num = number;
 while (number > 0)
 {
